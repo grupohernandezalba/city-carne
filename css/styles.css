@@ -3,3 +3,49 @@
 h1{
     color: blue;
 }
+
+.seccion-rosa {
+    background-color: #ed2083;
+    color: #fff;
+    height: 100%;
+}
+
+footer {
+    background-color: #181818;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.footer-logo img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+.footer-contact i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.footer-contact p {
+    margin: 0;
+}
+.footer-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+iframe {
+    border: 0;
+}
