@@ -70,6 +70,29 @@ h1{
     z-index: 1; /* Coloca la imagen encima de la imagen de fondo */
 }    
 
+.nuestros-productos {
+    padding: 35px;
+}
+
+@media (min-width: 992px) {
+    .seccion-carnes {
+        padding-left: 200px;
+    }
+
+    .seccion-cortes {
+        padding-right: 200px;
+    }
+}
+
+.lista-productos{
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-productos li {
+    margin-bottom: 0.4rem;
+}
+
 .seccion-rosa {
     background-color: #ed2083;
     color: #fff;
