@@ -28,7 +28,7 @@ h1{
     background: linear-gradient(to right, #28a745, #85e1a3);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
-
+}
 
 .boton-categorias {
     background: linear-gradient(135deg, #00b300, #66ff66);
@@ -76,6 +76,15 @@ h1{
     height: 100%;
 }
 
+.seccion-directamente-granja {
+    padding: 80px 30px;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
 footer {
     background-color: #181818;
     color: #fff;
@@ -111,7 +120,4 @@ footer {
 .footer-bottom a {
     color: #fff;
     text-decoration: none;
-}
-iframe {
-    border: 0;
 }
