@@ -29,7 +29,6 @@ h1{
 }
 
 .gradient-text {
-    font-size: 1.2rem;
     background: linear-gradient(to right, #28a745, #85e1a3);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
@@ -75,11 +74,19 @@ h1{
     z-index: 1; /* Coloca la imagen encima de la imagen de fondo */
 }    
 
+.seccion-carnes-card{
+    padding: 25px 50px;
+}
+
 .nuestros-productos {
     padding: 35px;
 }
 
 @media (min-width: 992px) {
+    .seccion-carnes-card{
+        padding: 25px 150px;
+    }
+
     .seccion-carnes {
         padding-left: 200px;
     }
