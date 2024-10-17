@@ -4,11 +4,6 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-
-h1{
-    color: blue;
-}
-
 #logo {
     max-width: 15rem; 
     height: 3rem; 
@@ -54,14 +49,19 @@ h1{
     position: relative; 
 }
 
-.fondo {
-    position: absolute;
-    top: 0;
-    left: 0;
+.fondo-verde {
+    background-image: url('../img/fondo-verde-city-carne.webp');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
-    z-index: -1; /* Envía la imagen de fondo al fondo */
+}
+
+.texto-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
 }
 
 .carne {
