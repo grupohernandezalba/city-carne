@@ -61,9 +61,9 @@ body {
 .fondo-verde {
     background-image: url('../img/fondo-citycarne.webp');
     background-size: cover; 
-    background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    background-position: bottom;
 }
 
 .texto-banner {
@@ -73,15 +73,6 @@ body {
     height: 80vh;
 }
 
-.carne {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-10%, -85%); /* Centra la imagen horizontal y verticalmente */
-    max-width: 50%;
-    height: auto;
-    z-index: 1; /* Coloca la imagen encima de la imagen de fondo */
-}    
 
 .seccion-carnes-card{
     padding: 25px 50px;
