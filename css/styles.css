@@ -46,7 +46,7 @@ body {
 
 .boton-categorias:hover {
     background: linear-gradient(to right, #00a82b, #59e666); 
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5); /
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5); 
     transform: scale(1.05);
 }
 
@@ -70,16 +70,6 @@ body {
     background-position: bottom;
 }
 
-.carne {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-10%, -85%); /* Centra la imagen horizontal y verticalmente */
-    max-width: 50%;
-    height: auto;
-    z-index: 1; /* Coloca la imagen encima de la imagen de fondo */
-}    
-
 .texto-banner {
     display: flex;
     flex-direction: column;
@@ -90,7 +80,6 @@ body {
 .div-text-banner{
 padding-top: 0;
   height: auto; 
-  border: 1px solid #000; 
   vertical-align: top;
 }
 
