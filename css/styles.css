@@ -83,10 +83,16 @@ body {
 .texto-banner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     height: 80vh;
 }
 
+.div-text-banner{
+padding-top: 0;
+  height: auto; 
+  border: 1px solid #000; 
+  vertical-align: top;
+}
 
 .seccion-carnes-card{
     padding: 25px 50px;
