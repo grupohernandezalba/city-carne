@@ -45,6 +45,24 @@ body {
 .boton-categorias:hover {
     background: linear-gradient(135deg, #66ff66, #00b300);
 }
+.toro-container {
+    position: relative;
+    text-align: center;
+}
+
+.toro-image {
+    position: absolute;
+    top: -50px; /* Ajusta este valor según necesites */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    z-index: 10;
+}
+
+.container-fluid {
+    position: relative;
+    z-index: 1;
+}
 .contenedor-imagenes {
     position: relative; 
 }
