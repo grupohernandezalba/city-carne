@@ -66,6 +66,16 @@ body {
     background-position: bottom;
 }
 
+.carne {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -85%); /* Centra la imagen horizontal y verticalmente */
+    max-width: 50%;
+    height: auto;
+    z-index: 1; /* Coloca la imagen encima de la imagen de fondo */
+}    
+
 .texto-banner {
     display: flex;
     flex-direction: column;
