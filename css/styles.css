@@ -2,6 +2,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+      background-color: #dce3eb;
 }
 
 #logo {
@@ -46,7 +47,6 @@ body {
 
 .boton-categorias:hover {
     background: linear-gradient(to right, #00a82b, #59e666); 
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5); 
     transform: scale(1.05);
 }
 
