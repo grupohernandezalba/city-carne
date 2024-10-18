@@ -31,7 +31,7 @@ body {
 
 .boton-categorias {
     background: linear-gradient(135deg, #00b300, #66ff66);
-    border: none;
+    border: 10px;
     color: white;
     padding: 15px 30px;
     font-size: 16px;
