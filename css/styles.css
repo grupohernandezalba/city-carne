@@ -3,6 +3,8 @@
 body {
     font-family: "Montserrat", sans-serif;
       background-color: #dce3eb;
+      margin: 0;
+      padding: 0
 }
 
 #logo {
