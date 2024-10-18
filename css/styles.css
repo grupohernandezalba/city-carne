@@ -45,20 +45,6 @@ body {
 .boton-categorias:hover {
     background: linear-gradient(135deg, #66ff66, #00b300);
 }
-.toro-container {
-    position: relative;
-    text-align: center;
-    margin-top: -100px; /* Ajustar este valor para controlar la superposición */
-}
-
-.toro-image {
-    position: relative;
-    width: 150px; /* Ajustar el tamaño de la imagen */
-    z-index: 10;
-    background-color: white; /* Añadir un fondo blanco detrás para evitar que el texto quede cubierto */
-    padding: 10px;
-    border-radius: 50%; /* Si quieres que la imagen esté dentro de un círculo */
-}
 
 .container-fluid {
     position: relative;
