@@ -52,10 +52,10 @@ body {
 
 .toro-image {
     position: absolute;
-    top: -50px; /* Ajusta este valor según necesites */
+    top: -70px; 
     left: 50%;
     transform: translateX(-50%);
-    width: 150px; /* Ajusta el tamaño de la imagen */
+    width: 150px;
     z-index: 10;
 }
 
