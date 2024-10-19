@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column; 
     align-items: flex-start;
-    color: rgb(56, 54, 54);
+    background: linear-gradient(to right, #52b14f, #8ac34e);
     padding:.5rem;
     margin: 0;
     
@@ -65,10 +65,7 @@ body {
     position: relative;
     z-index: 1;
 }
-.container-fluid {
-    position: relative;
-    z-index: 1;
-}
+
 .contenedor-imagenes {
     position: relative; 
 }
