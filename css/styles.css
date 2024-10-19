@@ -5,7 +5,9 @@ body {
       background-color: #f2f2f2;
       margin: 0;
       padding: 0;
-     color: #313131
+      color: #313131;
+      font-size:2rem;
+      letter-spacing: -2px;
 }
 
 #logo {
@@ -28,13 +30,13 @@ body {
 }
 
 .gradient-text {
-    background: linear-gradient(to right, #28a745, #85e1a3);
+    background: linear-gradient(to right, #52b14f, #8ac34e);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
 
 .boton-categorias {
-    background: linear-gradient(to right, #00b233, #6eff71); 
+    background: linear-gradient(to right, #0daf08, #88c449); 
     border: none;
     border-radius: 30px; 
     padding: 15px 40px; 
@@ -48,7 +50,7 @@ body {
 }
 
 .boton-categorias:hover {
-    background: linear-gradient(to right, #00a82b, #59e666); 
+    background: linear-gradient(to right, #88c449, #0daf08); 
     transform: scale(1.05);
 }
 
