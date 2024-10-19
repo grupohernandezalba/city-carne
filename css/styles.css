@@ -8,12 +8,6 @@ body {
       color: #313131;
       letter-spacing: 2px;
 }
-#toro{
-    position: absolute; /* Posiciona de manera absoluta sobre la imagen1 */
-    top: -2px; /* Posición en la parte superior */
-    left: 0; /* Posición en la parte izquierda */
-}
-}
 #logo {
     max-width: 17rem; 
     height: 5rem; 
