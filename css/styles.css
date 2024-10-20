@@ -97,6 +97,16 @@ padding-top: 0;
     padding: 35px;
 }
 
+.imagen-carne {
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .imagen-carne {
+        width: 50%;
+    }
+}
+    
 @media (min-width: 992px) {
     .seccion-carnes-card{
         padding: 25px 150px;
@@ -170,4 +180,21 @@ footer {
 .footer-bottom a {
     color: #fff;
     text-decoration: none;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    margin-bottom: 25px;
+    padding-bottom: 56.25%;
+}
+  
+.map-container iframe {
+    position: absolute;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
