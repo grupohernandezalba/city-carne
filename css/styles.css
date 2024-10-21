@@ -6,7 +6,7 @@ body {
       margin: 0;
       padding: 0;
       color: #313131;
-      letter-spacing: 2px;
+      letter-spacing: -2px;
 }
 #logo {
     max-width: 15rem; 
