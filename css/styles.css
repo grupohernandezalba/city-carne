@@ -6,7 +6,7 @@ body {
       margin: 0;
       padding: 0;
       color: #313131;
-      letter-spacing: -2px;
+      letter-spacing: -1px;
 }
 #logo {
     max-width: 18rem; 
@@ -19,8 +19,11 @@ body {
     flex-direction: column; 
     align-items: flex-start;
     padding:.5rem;
-    margin: 0;
-    
+    margin: 0;  
+}
+
+.titulos{
+      letter-spacing: -2px;
 }
 
 .navbar{
