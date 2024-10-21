@@ -9,7 +9,11 @@ body {
       letter-spacing: .5px;
 }
 #logo {
+<<<<<<< Updated upstream
     max-width: 18rem;  
+=======
+    max-width: 17rem; 
+>>>>>>> Stashed changes
     padding: .5rem;
     margin: 0;
 }
@@ -184,6 +188,18 @@ footer {
 
 .titulo-footer {
     padding-bottom: 25px;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #262626;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.texto-footer {
+    color: #a4a4a4;
 }
 
 .footer-contact i {
