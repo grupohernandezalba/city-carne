@@ -73,6 +73,22 @@ body {
     overflow: hidden;
 }
 
+@media (min-width: 992px) {
+    .banner {
+        margin-bottom: 80px;
+    }
+}
+
+.banner-carne {
+    width: 75%;
+}
+
+@media (max-width: 992px) {
+    .banner-carne {
+        width: 100%;
+    }
+}
+
 .gradient-text {
     background: linear-gradient(to right, #52b14f, #8ac34e);
     -webkit-background-clip: text; 
@@ -140,6 +156,16 @@ padding-top: 0;
     padding: 25px 50px;
 }
 
+.seccion-cortes-carne-premium {
+    padding: 25px 80px;
+}
+
+@media (max-width: 992px) {
+    .seccion-cortes-carne-premium {
+        padding: 45px 40px;
+    }
+}
+
 .nuestros-productos {
     padding: 35px;
 }
@@ -150,7 +176,7 @@ padding-top: 0;
 
 @media (max-width: 992px) {
     .imagen-carne {
-        width: 50%;
+        width: 65%;
     }
 }
     
@@ -233,6 +259,7 @@ footer {
     background-color: #262626;
     border-radius: 50%;
     display: inline-block;
+    border: 1px solid #61a303;
 }
 
 .texto-footer {
