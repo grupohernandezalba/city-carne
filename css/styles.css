@@ -7,7 +7,15 @@ body {
       color: #313131;
       letter-spacing: .5px;
 }
+.contenedor-inicio {
+  padding: 10px; 
+}
 
+@media (min-width: 768px) {
+  .contenedor {
+    padding: 40px; 
+  }
+}
 #logo {
     width:100%; 
     padding: .5rem;
