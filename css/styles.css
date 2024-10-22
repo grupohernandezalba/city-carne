@@ -10,24 +10,23 @@
   padding: 3rem;
 }
 
-/* Estilos del título y texto */
 .contenedor h1 {
   font-size: 3.5rem;       
-  margin-bottom: 16px;     
+  margin-bottom: 16px;   
+  color:#313131
 }
 
 .contenedor p {
   font-size: 2rem;        
 }
 
-/* Ajustes para pantallas más pequeñas */
 @media (max-width: 768px) {
   .contenedor h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .contenedor p {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   .contenedor {
