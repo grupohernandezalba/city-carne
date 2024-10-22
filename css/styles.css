@@ -40,6 +40,14 @@ body {
       font-size:bold
 }
 
+.txt-inicio{
+    color:#white;
+}
+
+.calidad{
+    color:#05ae04
+}
+
 .navbar{
     padding: 1 5rem;
 }
