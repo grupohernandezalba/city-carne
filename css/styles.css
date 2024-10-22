@@ -3,21 +3,21 @@
 .contenedor {
   display: flex;
   flex-direction: column;
-  justify-content: center;  /* Centra verticalmente */
-  align-items: center;      /* Centra horizontalmente */
-  min-height: 100vh;        /* Hace que el contenedor ocupe al menos el 100% del alto de la pantalla */
-  text-align: center;       /* Centra el texto dentro del contenedor */
-  padding: 20px;            /* Espacio interior (modificable) */
+  justify-content: center;  
+  align-items: center;      
+  min-height: 100vh;        
+  text-align: center;       
+  padding: 3rem;
 }
 
 /* Estilos del título y texto */
 .contenedor h1 {
-  font-size: 2.5rem;        /* Tamaño del título */
-  margin-bottom: 15px;      /* Espacio entre el título y el párrafo */
+  font-size: 3.5rem;       
+  margin-bottom: 16px;     
 }
 
 .contenedor p {
-  font-size: 1.2rem;        /* Tamaño del texto */
+  font-size: 2rem;        
 }
 
 /* Ajustes para pantallas más pequeñas */
@@ -31,7 +31,7 @@
   }
 
   .contenedor {
-    padding: 10px;         /* Reduce el padding en pantallas pequeñas */
+    padding: 1rem;
   }
 }
 
