@@ -30,6 +30,10 @@ body {
     margin: 0;  
 }
 
+.gradient-text {
+    font-size: small;
+}
+
 .titulos{
       letter-spacing: -2px;
       color: #313131;
