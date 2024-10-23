@@ -230,12 +230,12 @@ footer {
 }
 
 .footer-logo img {
-    max-height: 40px;
+    max-height: 50px;
     margin-right: 10px;
 }
 
 .titulo-footer {
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .dot {
